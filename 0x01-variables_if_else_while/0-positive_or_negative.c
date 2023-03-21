@@ -2,8 +2,8 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
-/** main - generates random integer and evaluates against conditions
+/** 
+ * main - generates random integer and evaluates against conditions
  *
  * Return: will be 0 for succesful trial
  *
