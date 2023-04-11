@@ -13,13 +13,10 @@ int main(int argc, char *argv[])
 {
 	int a, b = 0;
 
-	if (argc > 1)
+	for (a = 0; a < argc; a++)
 	{
-		for (a = 0; a < argc; a++)
-		{
-			printf("%s\n", argv[a]);
-			b = b + atoi(argv[a]);
-		}
+		printf("%s\n", argv[a]);
+		b = b + atoi(argv[a]);
 	}
 	return (0);
 }
