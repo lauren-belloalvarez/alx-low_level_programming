@@ -13,13 +13,13 @@ int root(int n, int counter)
 {
 	if (n < 0 || counter * counter > n)
 	{
-		return(-1);
+		return (-1);
 	}
 	else if (counter * counter == n)
 	{
-		return(counter);
+		return (counter);
 	}
-	return(root(n, counter + 1));
+	return (root(n, counter + 1));
 }
 
 /**
@@ -32,5 +32,5 @@ int root(int n, int counter)
 
 int _sqrt_recursion(int n)
 {
-	return(root(n, 0));
+	return (root(n, 0));
 }
