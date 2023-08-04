@@ -1,0 +1,27 @@
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdio.h>
+#include <unistd.h>
+
+int _isupper(int c);
+void _memset(void);
+char *_strcat(char *dest, char *src);
+int _atoi(char *s);
+int _isdigit(int c);
+void _memcpy(void);
+char *_strncat(char *dest, char *src, int n);
+void _strchr(void);
+int _strlen(char *s);
+char *_strncpy(char *dest, char *src, int n);
+void _islower(void);
+void _puts(char *str);
+int _strcmp(char *s1, char *s2);
+void _strspn(void);
+void _isalpha(void);
+void _strpbrk(void);
+void _strstr(void);
+void _abs(void);
+char *_strcpy(char *dest, char *src);
+int _putchar(char c);
+
+#endif
