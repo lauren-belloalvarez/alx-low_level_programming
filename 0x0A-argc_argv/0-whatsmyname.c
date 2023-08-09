@@ -3,8 +3,8 @@
 /**
  * main - prints name of the programme
  *
- * argc: number of inputs
- * argv: array of inputs
+ * @argc: number of inputs
+ * @argv: array of inputs
  *
  * Return: function name
  */
