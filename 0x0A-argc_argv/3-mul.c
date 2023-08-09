@@ -56,17 +56,23 @@ int main(int argc, char *argv[])
 {
 	int result, a, b;
 
-	if (argc < 3 || argc > 3)
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	else if (a < 0 || b < 0)
+	{
+		result = (-1 * a * b);
+		printf("%d\n", result);
+	}
 	else
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
 		result = a * b;
 		printf("%d\n", result);
 	}
-		return (1);
+		return (0);
 }
