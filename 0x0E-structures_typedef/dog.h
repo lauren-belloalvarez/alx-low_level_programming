@@ -3,15 +3,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*
- * struct dog - has name, age and owner of a particular dog
+/**
+ * struct dog - name, age and owner of a dog
  *
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
+ * @name: name of dog and first member
+ * @age: age of dog and second member
+ * @owner: owner of the dog and third member
  *
- * Description: basic details of a dog
+ * Description: all the details of a particular dog
  */
+
 typedef struct dog
 {
 	char *name;
