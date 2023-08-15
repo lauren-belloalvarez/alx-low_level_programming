@@ -12,16 +12,18 @@
  *
  * Description: all the details of a particular dog
  */
-
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
-newtypedog;
+};
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
+/**
+ * dog_t - new type name for struct
+ */
+typedef struct dog dog_t;
 #endif
